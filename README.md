@@ -23,8 +23,5 @@ python app.py
 ```
 Open http://127.0.0.1:5000
 
-## Render
-Push this folder to GitHub. In Render choose New > Web Service, connect the repo, Build Command `pip install -r requirements.txt`, Start Command `gunicorn app:app`. The included render.yaml can also be used.
-
 ## Data note
 Company/role/vacancy records are synthetic historical/demo data for portfolio demonstration. They are NOT live vacancies and should not be represented as current openings.
